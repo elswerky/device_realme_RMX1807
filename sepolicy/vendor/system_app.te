@@ -11,3 +11,7 @@ dontaudit system_app {
 
 allow system_app baseband_prop:file { read };
 get_prop(system_app, baseband_prop)
+
+
+# allow system apps to read battery status
+r_dir_file(system_app, sysfs_battery_supply)
