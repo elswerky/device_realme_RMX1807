@@ -543,4 +543,10 @@
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
+        <!-- Whether device supports sensor based doze customizations -->
+    <bool name="config_dozePulseTilt">true</bool>
+    <bool name="config_dozePulseProximity">true</bool>
+    <bool name="config_deviceHaveWakeUpProximity">true</bool>
+
+
 </resources>
