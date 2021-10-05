@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_RMX1807.mk
+    $(LOCAL_DIR)/evolution_RMX1807.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_RMX1807-user \
-    xtended_RMX1807-userdebug \
-    xtended_RMX1807-eng
+    evolution_RMX1807-user \
+    evolution_RMX1807-userdebug \
+    evolution_RMX1807-eng
