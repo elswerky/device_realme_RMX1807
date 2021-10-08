@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_RMX1807.mk
+    $(LOCAL_DIR)/nad_RMX1807.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_RMX1807-user \
-    xtended_RMX1807-userdebug \
-    xtended_RMX1807-eng
+    nad_RMX1807-user \
+    nad_RMX1807-userdebug \
+    nad_RMX1807-eng
